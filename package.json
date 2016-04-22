@@ -1,0 +1,36 @@
+{
+  "name": "promise-concurrent",
+  "version": "0.0.0",
+  "description": "Execute a list of promises with a limited concurrency",
+  "license": "MIT",
+  "repository": "SamVerschueren/promise-concurrent",
+  "author": {
+    "name": "Sam Verschueren",
+    "email": "sam.verschueren@gmail.com",
+    "url": "github.com/SamVerschueren"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "promise",
+    "promises",
+    "concurrent",
+    "concurrency",
+    "all"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "*",
+    "delay": "^1.3.1",
+    "in-range": "^1.0.0",
+    "time-span": "^1.0.0",
+    "xo": "*"
+  }
+}
